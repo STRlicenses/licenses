@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STR License Door Label</title>
+<style>
+  :root{
+    --gov:#1f3a5f;
+    --accent:#4a69d9;
+    --green:#2e7d47;
+    --ink:#1a1a1a;
+    --muted:#5a6472;
+    --line:#e2e6ee;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#eef1f6;
+    color:var(--ink);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:24px 12px 60px;
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+  .toolbar{
+    width:100%;
+    max-width:420px;
+    display:flex;
+    gap:8px;
+    justify-content:center;
+    margin-bottom:18px;
+  }
+  .toolbar button{
+    font:inherit;
+    font-weight:600;
+    font-size:14px;
+    border:none;
+    border-radius:8px;
+    padding:10px 18px;
+    cursor:pointer;
+    background:var(--accent);
+    color:#fff;
+  }
+  .toolbar button.secondary{background:#fff;color:var(--gov);border:1px solid var(--line);}
+
+  /* The label card — sized ~4x6 in portrait */
+  .label{
+    width:4in;
+    min-height:6in;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(31,58,95,.15);
+    display:flex;
+    flex-direction:column;
+    border:1px solid var(--line);
+  }
+  .brandbar{
+    background:var(--gov);
+    color:#fff;
+    padding:16px 18px 14px;
+    text-align:center;
+  }
+  .brandbar img{height:34px;width:auto;filter:brightness(0) invert(1);margin-bottom:8px;}
+  .brandbar .juris{
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    opacity:.9;
+  }
+  .official{
+    text-align:center;
+    padding:14px 18px 6px;
+  }
+  .official .kicker{
+    display:inline-block;
+    background:#eaf3ec;
+    color:var(--green);
+    font-size:10.5px;
+    font-weight:700;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    padding:5px 12px;
+    border-radius:999px;
+  }
+  .official h1{
+    font-size:20px;
+    line-height:1.2;
+    color:var(--gov);
+    margin:12px 6px 2px;
+  }
+  .official .addr{
+    font-size:12.5px;
+    color:var(--muted);
+    margin-bottom:4px;
+  }
+  .scanrow{
+    text-align:center;
+    padding:6px 18px 2px;
+  }
+  .scanrow .cta{
+    font-size:15px;
+    font-weight:800;
+    color:var(--accent);
+    letter-spacing:.02em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+  }
+  .scanrow .sub{
+    font-size:11.5px;
+    color:var(--muted);
+    margin-top:3px;
+  }
+  .qrwrap{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 18px 6px;
+  }
+  .qrwrap img{
+    width:2.35in;
+    height:2.35in;
+    border:6px solid #fff;
+    border-radius:10px;
+    box-shadow:0 0 0 1px var(--line);
+  }
+  .meta{
+    padding:6px 18px 4px;
+    text-align:center;
+  }
+  .meta .lic{
+    font-size:13px;
+    color:var(--ink);
+  }
+  .meta .lic strong{color:var(--gov);}
+  .meta .status{
+    display:inline-block;
+    margin-top:6px;
+    background:#eaf3ec;
+    color:var(--green);
+    font-size:11px;
+    font-weight:700;
+    padding:3px 10px;
+    border-radius:999px;
+  }
+  .footer{
+    background:#f6f8fc;
+    border-top:1px solid var(--line);
+    padding:10px 18px 12px;
+    text-align:center;
+  }
+  .footer .mgr{font-size:11.5px;color:var(--muted);}
+  .footer .mgr a{color:var(--accent);text-decoration:none;font-weight:600;}
+  .footer .url{
+    font-size:9.5px;
+    color:#9aa4b3;
+    margin-top:4px;
+    word-break:break-all;
+  }
+  .notfound{
+    max-width:400px;text-align:center;padding:40px 20px;color:var(--muted);
+  }
+  @media print{
+    body{background:#fff;padding:0;}
+    .toolbar{display:none;}
+    .label{box-shadow:none;border:none;border-radius:0;width:4in;min-height:6in;}
+    @page{size:4in 6in;margin:0;}
+  }
+</style>
+</head>
+<body>
+  <div class="toolbar no-print">
+    <button onclick="window.print()">Print this label</button>
+    <button class="secondary" onclick="location.href='verify.html?id='+ (new URLSearchParams(location.search).get('id')||'')">View full license</button>
+  </div>
+  <div id="root"></div>
+
+<script>
+(async function(){
+  var root = document.getElementById('root');
+  var params = new URLSearchParams(location.search);
+  var id = params.get('id');
+  if(!id){ root.innerHTML = '<div class="notfound"><h1>No property specified</h1><p>Add ?id=your-property to the link.</p></div>'; return; }
+
+  var data;
+  try{
+    var res = await fetch('properties.json?cb=' + Date.now());
+    data = await res.json();
+  }catch(e){
+    root.innerHTML = '<div class="notfound"><h1>Could not load data</h1></div>'; return;
+  }
+
+  var p = data.properties && data.properties[id];
+  var m = data.manager || {};
+  if(!p){
+    root.innerHTML = '<div class="notfound"><h1>Property not found</h1><p>No record for "'+id+'".</p></div>'; return;
+  }
+
+  var verifyUrl = location.origin + location.pathname.replace(/label\.html$/, 'verify.html') + '?id=' + encodeURIComponent(id);
+  var qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=600x600&color=1f3a5f&data=' + encodeURIComponent(verifyUrl);
+
+  function esc(s){return (s==null?'':String(s)).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+
+  root.innerHTML =
+    '<div class="label">' +
+      '<div class="brandbar">' +
+        (m.logo ? '<img src="'+esc(m.logo)+'" alt="'+esc(m.name)+'">' : '') +
+        '<div class="juris">' + esc(data.jurisdiction || 'Short-Term Rental License') + '</div>' +
+      '</div>' +
+      '<div class="official">' +
+        '<span class="kicker">Short-Term Rental License</span>' +
+        '<h1>' + esc(p.name) + '</h1>' +
+        '<div class="addr">' + esc(p.address) + '</div>' +
+      '</div>' +
+      '<div class="scanrow">' +
+        '<div class="cta"><span aria-hidden="true">&#128241;</span> Scan to Verify License</div>' +
+        '<div class="sub">Point your phone camera at the code below</div>' +
+      '</div>' +
+      '<div class="qrwrap"><img src="'+qrSrc+'" alt="Scan to verify license"></div>' +
+      '<div class="meta">' +
+        '<div class="lic">License No. <strong>' + esc(p.licenseNumber) + '</strong></div>' +
+        (p.status ? '<div class="status">' + esc(p.status) + '</div>' : '') +
+      '</div>' +
+      '<div class="footer">' +
+        '<div class="mgr">Managed by ' + esc(m.name || '') +
+          (m.website ? ' &middot; <a href="'+esc(m.website)+'">'+esc(m.websiteLabel||m.website)+'</a>' : '') +
+        '</div>' +
+        '<div class="url">' + esc(verifyUrl) + '</div>' +
+      '</div>' +
+    '</div>';
+
+  document.title = 'License Label — ' + p.name;
+})();
+</script>
+</body>
+</html>
