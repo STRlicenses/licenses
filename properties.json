@@ -1,0 +1,21 @@
+{
+  "jurisdiction": "Town of Vail, Colorado",
+  "manager": {
+    "name": "rentVAIL",
+    "website": "https://www.rentvail.com",
+    "websiteLabel": "www.rentvail.com",
+    "phone": "(970) 476-9322",
+    "logo": "assets/rentvail-logo.png"
+  },
+  "properties": {
+    "village-center-1g": {
+      "name": "Village Center 1G",
+      "address": "124 Willow Bridge Road #1G, Vail, CO 81657",
+      "licenseNumber": "032192",
+      "licenseType": "STR Registration \u2013 Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active"
+    }
+  }
+}
