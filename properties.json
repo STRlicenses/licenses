@@ -8,15 +8,625 @@
     "logo": "assets/rentvail-logo.png"
   },
   "properties": {
+    "coldstream-townhome-15": {
+      "name": "Coldstream Townhome 15",
+      "address": "1476 Westhaven Drive #15, Vail, CO, 81657",
+      "licenseNumber": "STL-000170",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "glacier-court-1854-a": {
+      "name": "Glacier Court 1854 A",
+      "address": "1854 A Glacier Ct, Vail, CO, 81657",
+      "licenseNumber": "STL-044336",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "June 12, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "glacier-court-1844-b": {
+      "name": "Glacier Court 1844 B",
+      "address": "1844 B Glacier Court, Vail, CO, 81657",
+      "licenseNumber": "STL-007611",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "glen-lyon-lodge": {
+      "name": "Glen Lyon Lodge",
+      "address": "1462 Greenhill Court, Vail, CO, 81657",
+      "licenseNumber": "STL-003569",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "1319-greenhill-court-vacation-home": {
+      "name": "1319 Greenhill Court Vacation Home",
+      "address": "1319 Greenhill Court, Vail, CO, 81657",
+      "licenseNumber": "STL-041564",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-21-condo-502": {
+      "name": "Vail 21 Condo 502",
+      "address": "521 East Lionshead Circle #502, Vail, CO, 81657",
+      "licenseNumber": "STL-007442",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-105": {
+      "name": "Vantage Point Condo 105",
+      "address": "508 East Lionshead Circle #105, Vail, CO, 81657",
+      "licenseNumber": "STL-007439",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "February 3, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-201": {
+      "name": "Vantage Point Condo 201",
+      "address": "508 East Lionshead Circle #201, Vail, CO, 81657",
+      "licenseNumber": "STL-007455",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-21-condo-501": {
+      "name": "Vail 21 Condo 501",
+      "address": "521 East Lionshead Circle #501, Vail, CO, 81657",
+      "licenseNumber": "STL-042216",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "March 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "coldstream-townhome-38": {
+      "name": "Coldstream Townhome 38",
+      "address": "1476 Westhaven Drive #38, Vail, CO, 81657",
+      "licenseNumber": "STL-007332",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-411": {
+      "name": "Vantage Point Condo 411",
+      "address": "508 East Lionshead Circle #411, Vail, CO, 81657",
+      "licenseNumber": "STL-007488",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-21-condo-302": {
+      "name": "Vail 21 Condo 302",
+      "address": "521 East Lionshead Circle #302, Vail, CO, 81657",
+      "licenseNumber": "STL-007513",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-21-condo-301": {
+      "name": "Vail 21 Condo 301",
+      "address": "521 East Lionshead Circle #301, Vail, CO, 81657",
+      "licenseNumber": "STL-007512",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "golf-terrace-townhome-25": {
+      "name": "Golf Terrace Townhome 25",
+      "address": "1610 Sunburst Drive #25, Vail, CO, 81657",
+      "licenseNumber": "STL-000254",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "cascades-on-gore-creek": {
+      "name": "Cascades On Gore Creek",
+      "address": "1390 Westhaven Drive #3, Vail, CO, 81657",
+      "licenseNumber": "STL-007313",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-304": {
+      "name": "Vantage Point Condo 304",
+      "address": "508 East Lionshead Circle #304, Vail, CO, 81657",
+      "licenseNumber": "STL-007336",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "tree-top-condo": {
+      "name": "Tree Top Condo",
+      "address": "450 East Lionshead Circle #2C, Vail, CO, 81657",
+      "licenseNumber": "STL-011268",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
     "village-center-1g": {
       "name": "Village Center 1G",
       "address": "124 Willow Bridge Road #1G, Vail, CO 81657",
       "licenseNumber": "032192",
-      "licenseType": "STR Registration \u2013 Professionally Managed",
+      "licenseType": "STR Registration – Professionally Managed",
       "issued": "January 16, 2026",
       "expires": "February 28, 2027",
       "status": "Active",
       "pdf": "licenses/village-center-1g.pdf"
+    },
+    "vail-international-007": {
+      "name": "Vail International 007",
+      "address": "300 E Lionshead Circle #007, Vail, CO, 81657",
+      "licenseNumber": "STL-042680",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "March 31, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "skaal-haus-3": {
+      "name": "Skaal Haus 3",
+      "address": "141 West Meadow Drive #3, Vail, CO, 81657",
+      "licenseNumber": "STL-011270",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-601": {
+      "name": "Vantage Point Condo 601",
+      "address": "508 East Lionshead Circle #601, Vail, CO, 81657",
+      "licenseNumber": "STL-007740",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "greenhill-court-chalet": {
+      "name": "GreenHill Court Chalet",
+      "address": "1464 Greenhill Court, Vail, CO, 81657",
+      "licenseNumber": "STL-024348",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "casa-del-sol": {
+      "name": "Casa Del Sol",
+      "address": "2065 West Gore Creek Drive #6, Vail, CO, 81657",
+      "licenseNumber": "STL-004817",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-314": {
+      "name": "Vantage Point Condo 314",
+      "address": "508 East Lionshead Circle #314, Vail, CO, 81657",
+      "licenseNumber": "STL-032880",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "village-center-1f": {
+      "name": "Village Center 1F",
+      "address": "124 Willow Bridge Road #1F, Vail, CO, 81657",
+      "licenseNumber": "STL-033046",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "sandstone-chalet": {
+      "name": "Sandstone Chalet",
+      "address": "1179 Sandstone Drive, Vail, CO, 81657",
+      "licenseNumber": "STL-027682",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "village-center-1e": {
+      "name": "Village Center 1E",
+      "address": "124 Willow Bridge Road #1E, Vail, CO, 81657",
+      "licenseNumber": "STL-026464",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-village-inn": {
+      "name": "Vail Village Inn",
+      "address": "68 East Meadow Drive 308/309, Vail, CO, 81657",
+      "licenseNumber": "STL-028250",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "coldstream-townhome-7": {
+      "name": "Coldstream Townhome 7",
+      "address": "1476 Westhaven Drive, Vail, CO, 81657",
+      "licenseNumber": "STL-009636",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "lionshead-center": {
+      "name": "Lionshead Center",
+      "address": "520 East Lionshead Circle #305, Vail, CO, 81657",
+      "licenseNumber": "STL-028166",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "red-lion-penthouse": {
+      "name": "Red Lion Penthouse",
+      "address": "304 Bridge Street, Vail, CO, 81657",
+      "licenseNumber": "STL-028156",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "golden-peak-penthouse": {
+      "name": "Golden Peak Penthouse",
+      "address": "598 Vail Valley Drive, Vail, CO, 81657",
+      "licenseNumber": "STL-026210",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "village-center-4j": {
+      "name": "Village Center 4J",
+      "address": "120 Willow Bridge Road #4J, Vail, CO, 81657",
+      "licenseNumber": "STL-028160",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "village-inn-plaza-103": {
+      "name": "Village Inn Plaza 103",
+      "address": "68 South Frontage Road East #103, Vail, CO, 81657",
+      "licenseNumber": "STL-028154",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "wren-at-vail": {
+      "name": "Wren At Vail",
+      "address": "500 South Frontage Road East #402, Vail, CO, 81657",
+      "licenseNumber": "STL-028158",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "millrace-6-a": {
+      "name": "Millrace 6-A",
+      "address": "1360 Westhaven Drive 6A, Vail, CO, 81657",
+      "licenseNumber": "STL-028252",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "potato-patch": {
+      "name": "Potato Patch",
+      "address": "950 Red Sandstone Road #41, Vail, CO, 81657",
+      "licenseNumber": "STL-028170",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-303": {
+      "name": "Vantage Point Condo 303",
+      "address": "508 East Lionshead Circle #303, Vail, CO, 81657",
+      "licenseNumber": "STL-035758",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "chamonix-chalet": {
+      "name": "Chamonix Chalet",
+      "address": "2139 W Chamonix Lane, Vail, CO, 81657",
+      "licenseNumber": "STL-028990",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "coldstream-townhome-19": {
+      "name": "Coldstream Townhome 19",
+      "address": "1476 Westhaven Drive #19, Vail, CO, 81657",
+      "licenseNumber": "STL-009628",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-502": {
+      "name": "Vantage Point Condo 502",
+      "address": "508 East Lionshead Circle #502, Vail, CO, 81657",
+      "licenseNumber": "STL-041898",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "March 10, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "apr-s-chalet": {
+      "name": "Aprés Chalet",
+      "address": "4842 Meadow Lane, Vail, CO, 81657",
+      "licenseNumber": "STL-032978",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "ptarmigan-townhome-2": {
+      "name": "Ptarmigan Townhome 2",
+      "address": "1975 Placid Drive #2, Vail, CO, 81657",
+      "licenseNumber": "STL-026428",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "pitkin-creek-park-3f": {
+      "name": "Pitkin Creek Park 3F",
+      "address": "3921 Big Horn Road #3F, Vail, CO, 81657",
+      "licenseNumber": "STL-026416",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "ptarmigan-townhomes-30": {
+      "name": "Ptarmigan Townhomes 30",
+      "address": "1975 West Gore Creek Drive #30, Vail, CO, 81657",
+      "licenseNumber": "STL-027760",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "skaal-haus-1": {
+      "name": "Skaal Haus 1",
+      "address": "141 West Meadow Drive #1, Vail, CO, 81657",
+      "licenseNumber": "STL-007994",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-mountain-vista": {
+      "name": "Vail Mountain Vista",
+      "address": "3230 Katsos Ranch, Vail, CO, 81657",
+      "licenseNumber": "STL-032146",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "villa-cortina-120": {
+      "name": "Villa Cortina 120",
+      "address": "22 W Meadow Dr #120, Vail, CO, 81657",
+      "licenseNumber": "STL-035228",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "liftside-c22": {
+      "name": "Liftside C22",
+      "address": "1234 Westhaven Dr #C22, Vail, CO, 81657",
+      "licenseNumber": "STL-028580",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "fallridge-401": {
+      "name": "Fallridge 401",
+      "address": "1650 Fallridge Place #401, Vail, CO, 81657",
+      "licenseNumber": "STL-035596",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-international-211": {
+      "name": "Vail International 211",
+      "address": "300 E Lionshead Circle #211, Vail, CO, 81657",
+      "licenseNumber": "STL-040026",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "9-vail-road-23": {
+      "name": "9 Vail Road #23",
+      "address": "9 Vail Rd #23, Vail, CO, 81657",
+      "licenseNumber": "STL-035820",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vantage-point-condo-103": {
+      "name": "Vantage Point Condo 103",
+      "address": "508 East Lionshead Circle #103, Vail, CO, 81657",
+      "licenseNumber": "STL-042218",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "March 23, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "nugget-lane-b": {
+      "name": "Nugget Lane B",
+      "address": "4267 Nugget Lane B, Vail, CO, 81657",
+      "licenseNumber": "STL-012842",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "vail-chalet": {
+      "name": "Vail Chalet",
+      "address": "1242 Westhaven Circle, Vail, CO, 81657",
+      "licenseNumber": "STL-029454",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "arrabelle-460": {
+      "name": "Arrabelle 460",
+      "address": "675 Lionshead Pl #460, Vail, CO, 81657",
+      "licenseNumber": "STL-010508",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "chateau-tremonte-8": {
+      "name": "Chateau Tremonte 8",
+      "address": "1890 Lionsridge Loop, Vail, CO, 81657",
+      "licenseNumber": "STL-038714",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "village-center-5e": {
+      "name": "Village Center 5E",
+      "address": "124 Willow Bridge Road #5E, Vail, CO, 81657",
+      "licenseNumber": "STL-039902",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "rockledge-325": {
+      "name": "Rockledge 325",
+      "address": "325 Rockledge Rd. Unit A, Vail, CO, 81657",
+      "licenseNumber": "STL-040108",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 16, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "225-forest-road": {
+      "name": "225 Forest Road",
+      "address": "225 Forest Road, Vail, CO, 81657",
+      "licenseNumber": "STL-034238",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "February 3, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "all-seasons-4-bedroom": {
+      "name": "All Seasons 4 Bedroom",
+      "address": "434 Gore Creek Drive, Vail, CO, 81657",
+      "licenseNumber": "STL-032196 & STL-032198",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
+    },
+    "all-seasons-c-2b": {
+      "name": "All Seasons C-2B",
+      "address": "434 Gore Creek Drive #C2B, Vail, CO, 81657",
+      "licenseNumber": "STL-034006",
+      "licenseType": "STR Registration – Professionally Managed",
+      "issued": "January 15, 2026",
+      "expires": "February 28, 2027",
+      "status": "Active",
+      "pdf": ""
     }
   }
 }
